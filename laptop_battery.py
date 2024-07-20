@@ -1,6 +1,6 @@
 import sys
-data = float(sys.stdin.readline())
-if data >= 4.00:
+x = float(sys.stdin.readline())
+if x >= 4.00:
     print("8.00")
 else:
-    print(round(2*data, 2))
+    print(round(2*x, 2))
